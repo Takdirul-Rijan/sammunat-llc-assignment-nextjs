@@ -25,7 +25,6 @@ const ReviewCard = ({ review }) => {
         “{review.comment}”
       </p>
 
-      {/* Stars slightly above bottom */}
       <div className="mt-4 flex justify-center gap-1 text-yellow-500">
         {Array.from({ length: fullStars }).map((_, i) => (
           <FaStar key={i} size={14} />

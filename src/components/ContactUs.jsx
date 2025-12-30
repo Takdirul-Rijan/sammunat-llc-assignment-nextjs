@@ -41,7 +41,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section id="contact" className="w-11/12 mx-auto py-16 px-3 bg-white">
+    <section id="contact" className="mx-auto py-16 px-3 bg-white">
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">Contact Us</h2>
         <p className="text-gray-600 max-w-2xl mx-auto text-sm sm:text-base">
