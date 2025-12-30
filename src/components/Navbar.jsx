@@ -4,11 +4,9 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
         {/* <div className="text-xl font-bold text-blue-600">Sammunat</div> */}
         <img src="/logo.jpg" alt="" />
 
-        {/* Menu */}
         <ul className="hidden md:flex items-center gap-6 text-gray-700">
           <li className="hover:text-blue-600 cursor-pointer">Home</li>
           <li className="hover:text-blue-600 cursor-pointer">Services</li>
@@ -16,7 +14,6 @@ export default function Navbar() {
           <li className="hover:text-blue-600 cursor-pointer">Contact</li>
         </ul>
 
-        {/* CTA */}
         <button className="hidden md:block px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
           Get Started
         </button>
