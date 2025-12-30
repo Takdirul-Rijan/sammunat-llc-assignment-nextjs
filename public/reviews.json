@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Michael Anderson",
+    "role": "Startup Founder",
+    "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+    "comment": "Sammunat delivered a modern and responsive website that perfectly matched our business goals. Their attention to detail and communication were excellent.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Sophia Martinez",
+    "role": "Marketing Manager",
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+    "comment": "The team at Sammunat helped us redesign our website with a strong focus on UI/UX. Our engagement rate improved significantly after launch.",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Daniel Thompson",
+    "role": "E-Commerce Owner",
+    "avatar": "https://randomuser.me/api/portraits/men/56.jpg",
+    "comment": "Their e-commerce and Shopify expertise is outstanding. Sammunat built a fast, scalable solution that boosted our online sales.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Emily Brown",
+    "role": "Product Manager",
+    "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+    "comment": "Working with Sammunat was smooth and professional. They understood our requirements clearly and delivered on time.",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "name": "Ryan Miller",
+    "role": "Tech Consultant",
+    "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+    "comment": "I was impressed by their technical expertise in React and Next.js. The final product was clean, optimized, and scalable.",
+    "rating": 4.5
+  },
+  {
+    "id": 6,
+    "name": "Olivia Davis",
+    "role": "Business Owner",
+    "avatar": "https://randomuser.me/api/portraits/women/21.jpg",
+    "comment": "Sammunat provided an end-to-end digital solution for our business. From design to deployment, everything was handled professionally.",
+    "rating": 5
+  }
+]
