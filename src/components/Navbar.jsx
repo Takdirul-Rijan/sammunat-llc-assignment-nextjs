@@ -10,10 +10,26 @@ export default function Navbar() {
         </h2>
 
         <ul className="hidden md:flex items-center gap-6 text-gray-700">
-          <li className="hover:text-blue-600 cursor-pointer">Home</li>
-          <li className="hover:text-blue-600 cursor-pointer">Services</li>
-          <li className="hover:text-blue-600 cursor-pointer">Why Us</li>
-          <li className="hover:text-blue-600 cursor-pointer">Contact</li>
+          <li>
+            <a href="#home" className="hover:text-blue-600">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#services" className="hover:text-blue-600">
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#why-us" className="hover:text-blue-600">
+              Why Us
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="hover:text-blue-600">
+              Contact
+            </a>
+          </li>
         </ul>
 
         <button className="hidden md:block px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">

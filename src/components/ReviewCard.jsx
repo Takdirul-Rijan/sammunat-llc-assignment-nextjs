@@ -4,7 +4,11 @@ const ReviewCard = ({ review }) => {
   const fullStars = Math.floor(review.rating);
 
   return (
-    <div className="bg-white p-5 sm:p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition w-full max-w-sm mx-auto">
+    <div
+      className="bg-white p-5 sm:p-6 rounded-2xl shadow-md hover:shadow-xl transition
+                    w-full max-w-sm mx-auto text-center
+                    h-[360px] flex flex-col"
+    >
       <img
         src={review.avatar}
         alt={review.name}
@@ -17,11 +21,12 @@ const ReviewCard = ({ review }) => {
 
       <p className="text-xs sm:text-sm text-gray-500 mb-3">{review.role}</p>
 
-      <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">
+      <p className="text-gray-600 text-sm leading-relaxed line-clamp-4">
         “{review.comment}”
       </p>
 
-      <div className="flex justify-center gap-1 text-yellow-500">
+      {/* Stars slightly above bottom */}
+      <div className="mt-4 flex justify-center gap-1 text-yellow-500">
         {Array.from({ length: fullStars }).map((_, i) => (
           <FaStar key={i} size={14} />
         ))}

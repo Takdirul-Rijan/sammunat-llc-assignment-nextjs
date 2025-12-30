@@ -18,7 +18,7 @@ const Reviews = () => {
   }, []);
 
   return (
-    <section className="w-11/12 mx-auto py-14 px-3 bg-red-50">
+    <section className="mx-auto py-14 px-3 bg-gray-50">
       <div className="text-center mb-12">
         <h3 className="text-2xl sm:text-3xl font-bold my-4">
           What Our Clients Say
