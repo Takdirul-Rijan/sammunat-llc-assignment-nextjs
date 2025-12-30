@@ -5,7 +5,9 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* <div className="text-xl font-bold text-blue-600">Sammunat</div> */}
-        <img src="/logo.jpg" alt="" />
+        <h2 className="text-2xl font-bold mb-4">
+          Samm<span className="text-orange-500">unat</span>
+        </h2>
 
         <ul className="hidden md:flex items-center gap-6 text-gray-700">
           <li className="hover:text-blue-600 cursor-pointer">Home</li>
