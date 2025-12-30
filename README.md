@@ -6,16 +6,6 @@ A modern, responsive landing page for **Sammunat LLC** built with **Next.js**, *
 
 ---
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Author](#author)
-- [Contact](#contact)
-
----
 
 ## Features
 
@@ -40,31 +30,7 @@ A modern, responsive landing page for **Sammunat LLC** built with **Next.js**, *
 
 ---
 
-## Project Structure
 
-sammunat-llc-assignment-nextjs/
-├─ pages/
-│ ├─ page.js # Main landing page
-├─ components/
-│ ├─ Navbar.js
-│ ├─ Hero.js
-│ ├─ Services.js
-│ ├─ WhyChooseUs.js
-│ ├─ Reviews.js
-│ ├─ ReviewCard.js
-│ ├─ ContactUs.js
-│ └─ Footer.js
-├─ public/
-│ ├─ images/ # Project images
-├─ styles/
-│ └─ globals.css
-├─ package.json
-└─ README.md
-
-yaml
-Copy code
-
----
 
 ## Getting Started
 
@@ -79,7 +45,7 @@ Copy code
 
 ```bash
 git clone https://github.com/Takdirul-Rijan/sammunat-llc-assignment-nextjs
-cd my-first-next-app-client
+cd sammunat-llc-assignment-nextjs
 Install dependencies:
 
 bash
@@ -92,20 +58,21 @@ Copy code
 npm run dev
 Open http://localhost:3000 to view the project in your browser.
 
-Author
-Md. Takdirul Islam Rijan
-Frontend Developer | MERN Stack Enthusiast
-
-GitHub: Takdirul-Rijan
-
-Email: takdirul.rijan@gmail.com
-
-Location: Dhaka, Bangladesh
-
-Contact
-For collaboration or inquiries, you can reach me via:
-
-Email: takdirul.rijan@gmail.com
-
-WhatsApp: +8801624375159
 ```
+### Author
+**Md. Takdirul Islam Rijan**  
+*Frontend Developer | MERN Stack Enthusiast*  
+
+- **GitHub:** [Takdirul-Rijan](https://github.com/Takdirul-Rijan)  
+- **Email:** takdirul.rijan@gmail.com  
+- **Location:** Dhaka, Bangladesh  
+
+---
+
+### Contact
+
+For collaboration or inquiries, you can reach me via:  
+
+- **Email:** takdirul.rijan@gmail.com  
+- **Phone(WhatsApp):** +8801624375159
+
